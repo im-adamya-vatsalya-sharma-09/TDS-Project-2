@@ -43,29 +43,29 @@ The repository is organized as follows:
 
 ---
 
-How to Use
-1. Upload Dataset
-To begin using the tool, simply upload your dataset. The system supports a variety of formats, including CSV, Excel, and JSON.
+## How to Use
 
-2. Data Analysis
+### 1. Upload Dataset
+To begin using the tool, simply upload your dataset. The system supports a variety of formats, including CSV, Excel, and JSON. 
+
+### 2. Data Analysis
 Once the dataset is uploaded, the tool will automatically load and begin the analysis. The following processes will be carried out:
+   - **Data Cleaning**: The tool checks for missing values, duplicates, and other inconsistencies.
+   - **Statistical Summaries**: The system generates summary statistics for all numerical and categorical columns, including mean, median, mode, standard deviation, and more.
+   - **Correlation Analysis**: The tool calculates correlation coefficients to reveal relationships between numerical variables.
+   - **Data Visualizations**: Visualizations such as distribution plots, box plots, and heatmaps are generated for a better understanding of the data.
 
-Data Cleaning: The tool checks for missing values, duplicates, and other inconsistencies.
-Statistical Summaries: The system generates summary statistics for all numerical and categorical columns, including mean, median, mode, standard deviation, and more.
-Correlation Analysis: The tool calculates correlation coefficients to reveal relationships between numerical variables.
-Data Visualizations: Visualizations such as distribution plots, box plots, and heatmaps are generated for a better understanding of the data.
-3. Insights & Reporting
+### 3. Insights & Reporting
 After the analysis is complete, the tool will generate:
+   - **Statistical Summary Report**: A detailed summary of all calculated statistics.
+   - **Visualizations**: All generated charts are saved as PNG files for easy sharing and inclusion in reports.
+   - **Narrative Insights**: Using OpenAI’s models, the tool produces a written analysis summarizing key findings, trends, and insights from the data.
 
-Statistical Summary Report: A detailed summary of all calculated statistics.
-Visualizations: All generated charts are saved as PNG files for easy sharing and inclusion in reports.
-Narrative Insights: Using OpenAI’s models, the tool produces a written analysis summarizing key findings, trends, and insights from the data.
-4. Save and Export
+### 4. Save and Export
 Once the analysis is complete, you can:
-
-Download the statistical summary as a text or CSV file.
-Download the generated visualizations as PNG files.
-Export the generated narrative report.
+   - Download the statistical summary as a text or CSV file.
+   - Download the generated visualizations as PNG files.
+   - Export the generated narrative report.
 
 ## Installation
 
